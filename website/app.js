@@ -89,8 +89,8 @@ const retrieveData = async () => {
 		console.log(allData);
 		// Update UI dynamically
 		date.innerHTML = `Date: ${allData.date}`;
-		temp.innerHTML = `Temperature: ${allData.temp}  degree Celsius`;
-		content.innerHTML = `I Feel: ${allData.content}`;
+		temp.innerHTML = `Temperature: ${allData.temp}  degrees Celsius`;
+		content.innerHTML = `I Feel ${allData.content}`;
 	} catch (err) {
 		console.log('error', err);
 	}
